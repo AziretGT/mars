@@ -25,3 +25,7 @@ STEP 6
 Move the Boxes:
 If the total weight is not equal to 713 kg, each box "moves" to a new kilometer.
 Specific values (e.g., +5 to kilometers and +10 to weight) are added to each element in the boxes array.
+
+STEP 7
+To find boxes kilometer and weight easier print(boxes)
+And call find_cargo()

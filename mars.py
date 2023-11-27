@@ -24,3 +24,7 @@ def find_cargo():
                     new_kilometer = boxes[i][0] + 5  # Example new kilometer (can be modified)
                     new_weight = boxes[i][1] + 10    # Example new weight (can be modified)
                     boxes[i] = [new_kilometer, new_weight]
+# STEP7
+            print(boxes)
+
+find_cargo()
