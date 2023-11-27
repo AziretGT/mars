@@ -11,3 +11,5 @@ def find_cargo():
 
                 boxes[i][0] += kilometer
                 boxes[i][1] += weight
+# STEP4         
+                total_weight += boxes[i][1]

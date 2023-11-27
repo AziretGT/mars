@@ -11,3 +11,7 @@ STEP 3
 User Input:
 Prompt the user to input the kilometer and weight for each of the three boxes.
 Use the entered data to update the position of each box in the boxes array.
+
+STEP 4
+Check Total Weight:
+Sum the weights of all located boxes into the total_weight variable.
