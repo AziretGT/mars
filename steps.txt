@@ -20,3 +20,8 @@ STEP 5
 Search Completion Condition:
 Check if the total weight of the located boxes matches the required weight (713 kg).
 If the total weight equals 713 kg, the program ends and displays a message indicating that all boxes are found.
+
+STEP 6
+Move the Boxes:
+If the total weight is not equal to 713 kg, each box "moves" to a new kilometer.
+Specific values (e.g., +5 to kilometers and +10 to weight) are added to each element in the boxes array.

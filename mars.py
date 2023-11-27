@@ -17,3 +17,10 @@ def find_cargo():
             if total_weight == 713:
                 print("Congratulations! You have found all the boxes!")
                 break
+# STEP6
+            else:
+                for i in range(3):
+                # New kilometer and weight for the box if it moves
+                    new_kilometer = boxes[i][0] + 5  # Example new kilometer (can be modified)
+                    new_weight = boxes[i][1] + 10    # Example new weight (can be modified)
+                    boxes[i] = [new_kilometer, new_weight]
