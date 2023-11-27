@@ -15,3 +15,8 @@ Use the entered data to update the position of each box in the boxes array.
 STEP 4
 Check Total Weight:
 Sum the weights of all located boxes into the total_weight variable.
+
+STEP 5
+Search Completion Condition:
+Check if the total weight of the located boxes matches the required weight (713 kg).
+If the total weight equals 713 kg, the program ends and displays a message indicating that all boxes are found.

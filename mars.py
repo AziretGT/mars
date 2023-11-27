@@ -13,3 +13,7 @@ def find_cargo():
                 boxes[i][1] += weight
 # STEP4         
                 total_weight += boxes[i][1]
+# STEP5
+            if total_weight == 713:
+                print("Congratulations! You have found all the boxes!")
+                break
