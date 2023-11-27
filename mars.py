@@ -4,3 +4,10 @@ def find_cargo():
 # STEP2
     while True:
             total_weight = 0
+# STEP3
+            for i in range(3):
+                kilometer = int(input(f"Enter the kilometer for box {i + 1}: "))
+                weight = int(input(f"Enter the weight for box {i + 1}: "))
+
+                boxes[i][0] += kilometer
+                boxes[i][1] += weight
