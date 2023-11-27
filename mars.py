@@ -1,2 +1,6 @@
 # STEP1
-boxes = [[0, 0], [0, 0], [0, 0]]
+def find_cargo():
+    boxes = [[0, 0], [0, 0], [0, 0]]
+# STEP2
+    while True:
+            total_weight = 0
