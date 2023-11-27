@@ -1,0 +1,4 @@
+STEP 1
+Initialization of Variables:
+    Create the boxes array where each element is an array containing two values: 
+    the kilometer and weight of a box. Set the total_weight variable to store the overall weight of the located boxes.
